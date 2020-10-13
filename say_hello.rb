@@ -1,3 +1,3 @@
-def say_hello(name) # Build
-  puts "Hello #{name} Ruby Programmer!"
+def say_hello(name = "Ruby Programmer") # Build
+  puts "Hello #{name}!"
 end
